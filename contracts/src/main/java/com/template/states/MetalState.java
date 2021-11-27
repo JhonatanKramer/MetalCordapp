@@ -21,7 +21,7 @@ public class MetalState implements ContractState {
     private Party owner;
 
     public MetalState(String metalName, int weight, Party issuer, Party owner) {
-        metalName = metalName;
+        this.metalName = metalName;
         this.weight = weight;
         this.issuer = issuer;
         this.owner = owner;
